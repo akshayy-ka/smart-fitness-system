@@ -1,10 +1,13 @@
 package models;
 
+
 import database.UserDAO;
 import database.WorkoutDAO;
 import java.util.List;
 import java.util.stream.Collectors;
 import java.time.LocalDate; // Assuming your Workout object will eventually have a date
+import models.*;
+import database.*;
 
 /**
  * A sophisticated engine for generating personalized fitness and diet recommendations.
